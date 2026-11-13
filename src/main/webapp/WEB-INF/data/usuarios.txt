@@ -1,0 +1,1 @@
+# id|nombre|email|usuario|contrasena|telefono|direccion|rol

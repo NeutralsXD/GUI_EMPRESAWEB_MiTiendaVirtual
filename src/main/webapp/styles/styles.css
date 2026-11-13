@@ -1,0 +1,90 @@
+/* Estilos propios de MiTiendaVirtual (complementa Bootstrap) */
+
+body {
+    background: linear-gradient(135deg, #e8f4fc 0%, #f0f4f8 50%, #e6f0ff 100%);
+    min-height: 100vh;
+}
+
+.navbar-store {
+    background: linear-gradient(90deg, #0d6efd, #0a58ca) !important;
+    box-shadow: 0 2px 12px rgba(13, 110, 253, 0.25);
+}
+
+.navbar-store .nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+}
+
+.navbar-store .nav-link:hover {
+    color: #fff !important;
+}
+
+.hero-store {
+    background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+    color: #fff;
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 24px rgba(13, 110, 253, 0.3);
+}
+
+.feature-card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.feature-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.section-title {
+    color: #0d47a1;
+    font-weight: 700;
+}
+
+.form-card {
+    max-width: 480px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-card h2 {
+    color: #0d47a1;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    background-color: #0a58ca;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: auto;
+}
+
+footer a {
+    color: #cce0ff;
+}
+
+.alert-store {
+    border-radius: 0.75rem;
+}

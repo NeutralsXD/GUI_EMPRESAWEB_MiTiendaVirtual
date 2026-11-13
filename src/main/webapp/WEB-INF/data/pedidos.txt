@@ -1,0 +1,1 @@
+# id|idCliente|nombreCliente|metodoPago|detallePago|estado|total|lineas
